@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Forms</title>
 </head>
 <body>
 	<hr>
@@ -21,81 +21,75 @@
 			<td>Сохранить и закрыть</td>
 			<td>Закрыть</td>
 		</tr>
-
 	</table>
 
+    <!--Форма-->
+    <form action="" method="" name="news">
+        <label for="name"><b>Название новости</b>
+    	   <input id="name" type="text" name="name"/>
+        </label>
 
+    	<p>Алиас</p>
+    	<input type="text" name="alias"/>
 
-<!--Форма-->
-<form>
-	<p><b>Название новости</b></p>
-	<input type="text" name="">
+    	<p><b>Анонс</b></p>
+    	<textarea name=""></textarea>
 
-	<p>Алиас</p>
-	<input type="text" name="">
+    	<p><b>Текст</b></p>
+    	<textarea name="text"></textarea>
 
-	<p><b>Анонс</b></p>
-	<textarea></textarea>
+    	<p><b>Фото</b></p>
+    	<input type="file" name="image">
 
-	<p><b>Текст</b></p>
-	<textarea></textarea>
+    	<!--Cлайдер-->
+    	<p><b>Cлайдер</b></p>
+    	<select name="slider">
+    		<option value="1">Активна</option>
+    		<option value="0">Не активна</option>
+    	</select>
 
-	<p><b>Фото</b></p>
-	<input type="file" name="">
-	<!--Cлайдер-->
-	<p><b>Cлайдер</b></p>
-	<select>
-		<option value="">Активна</option>
-		<option value="">Не активна</option>
-	</select>
-	<!--Основные новости-->
-	<p><b>Основные новости</b></p>
-	<select name="" id="">
-		<option>Активна</option>
-		<option>Не активна</option>
-	</select>
-	<!--Активность-->
-	<p><b>Активность</b></p>
-	<select name="" id="">
-		<option>Активна</option>
-		<option>Не активна</option>
-	</select>
-	<!--Категория-->
-	<p><b>Категория</b></p>
-	 <select name="" id="">
-		<option>Политика</option>
-		<option>Спорт</option>
-		<option>Економика</option>
-		<option>Бизнес</option>
-	</select>
+    	<!--Основные новости-->
+    	<p><b>Основные новости</b></p>
+    	<select name="base_news" id="">
+    		<option>Активна</option>
+    		<option>Не активна</option>
+    	</select>
 
-	<p>Дата создания новости</p>
-	<input type="data" name="" placeholder="01.02.17">
+    	<!--Активность-->
+    	<p><b>Активность</b></p>
+    	<select name="active" id="">
+    		<option>Активна</option>
+    		<option>Не активна</option>
+    	</select>
 
-	<p>Кол-во просмотров</p>
-	<input type="text" name="">
+    	<!--Категория-->
+    	<p><b>Категория</b></p>
+    	 <select name="category" id="">
+    		<option>Политика</option>
+    		<option>Спорт</option>
+    		<option>Економика</option>
+    		<option>Бизнес</option>
+    	</select>
 
-	<p>Автор</p>
-	<input type="text" name="">
+    	<p>Дата создания новости</p>
+    	<input type="date" name=""/>
 
-	<p>Теги</p>
-	<input type="text" name="">
+    	<p>Кол-во просмотров</p>
+    	<input type="text" name=""/>
 
-	<p>Keywords meta</p>
-	<input type="text" name="">
+    	<p>Автор</p>
+    	<input type="text" name=""/>
 
- <p>Descriptoin meta</p>
- <textarea></textarea>
+    	<p>Теги</p>
+    	<input type="text" name=""/>
 
+    	<p>Keywords meta</p>
+    	<input type="text" name=""/>
 
-</form>
+        <p>Descriptoin meta</p>
+        <textarea></textarea>
 
-
-
-	
-	
-
-
+    </form>
 
 </body>
 </html>
