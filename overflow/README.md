@@ -10,3 +10,7 @@
 > Сверстать таблицу без стилей: 
 >
 > ![](https://pp.userapi.com/c638924/v638924802/4bd4d/HMcBn6Zq6So.jpg)
+
+## 2 [baseCss](https://github.com/MihailBoicko/study/tree/master/overflow/baseCss) Введение в CSS
+
+[Самоучитель CSS](http://htmlbook.ru/samcss)
