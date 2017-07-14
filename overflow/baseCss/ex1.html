@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Css</title>
+
+    <style>
+        /*
+        1. новости в половину ширины экрана
+        2. заголовок выровнять по центру
+        3. текст на сером фоне белым шрифтом
+        4. автор подчеркнут, дата красным
+        5. элементы формы на 100% шириной.
+        */
+
+        .box {
+            width: 50%;
+            margin: 0 auto;
+
+        }
+
+        .article>h2 {
+            text-align: center;
+        }
+    
+        .article>p{
+            background: grey;
+            color: #fff;
+        }    
+
+        .Author {
+            text-decoration: underline;
+        }
+        
+        .date {
+            color: red;
+        }
+
+        .box form input,
+        .box form textarea,
+        .box form textarea{
+            width: 100%;
+        }
+        
+
+    </style>
+<body>
+
+    <div class="box">
+        <div class="article">
+            <h2>Title news</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt suscipit eaque repudiandae soluta, accusamus autem veniam nobis iusto dolorum ratione deleniti perspiciatis tenetur pariatur, quia, nulla nam provident nostrum inventore!</p>
+            <span class="Author">Автор</span>
+            <span class="date">10.12.17</span>
+        </div>
+
+        <div class="article">
+            <h2>Title news</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quos similique cum, maiores quidem nihil asperiores itaque sequi sapiente consequuntur aperiam neque. Cum sit a, odit vel id magnam veniam!</p>
+            <span class="Author">Автор</span>
+            <span class="date">10.12.17</span>
+        </div>
+
+        <div class="article">
+            <h2>Title news</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam optio voluptatem sed labore minima fugiat sit non unde a. Maiores, suscipit omnis recusandae sed adipisci, odio voluptates at repudiandae mollitia.</p>
+            <span class="Author">Автор</span>
+            <span class="date">10.12.17</span>
+        </div>
+
+        <form action="">
+            <input type="text" name="email" >
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            <button>Сохрфнить</button>
+        </form>
+    </div>
+
+</body>
+</html>
