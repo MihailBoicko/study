@@ -1,0 +1,82 @@
+body {
+    font-size: 24px;
+}
+
+h1 {
+    color: rgba(255, 0, 0, 0.5); 
+    font-size: 40px;    
+}
+        
+.blue:hover {
+    color: blue;
+}
+
+#title {
+    text-align: center;
+}
+
+.box_text {
+    background-color: #333;
+    height: 500px;
+}
+
+.box_text>p:not(.other):hover {
+    transition: 2s;
+    color: #fff;
+}
+
+.box_text>p:before{
+    content: 'before ';
+}
+
+.box_text>p:after{
+    content: 'after ';
+}
+
+#test:first-letter,
+.box_text>p{
+    color: red;
+    margin-left: 30px;
+}
+
+#test:first-line {
+    color: blue;
+}
+
+input[name="name"] {
+    width: 400px;
+}
+
+
+
+.main h4.red {
+    color: red;
+}
+
+h4#text {
+    color: gray;
+}
+
+h4.red {
+    color: red;
+}
+
+.main h4 {
+    color: blue;
+}
+
+h4 {
+    color: green !important;
+}
+
+#test2 {
+    border: 30px solid #aaa;
+    padding: 30px 10px 5px 0;
+    margin: 30px;
+    float: right;
+}
+#test2{
+    background-color: #38a;
+}
+
+
