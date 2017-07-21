@@ -21,3 +21,12 @@
 > HomeWork
 > Прочесть статьи и выполнить [задания простого уровня](http://htmlbook.ru/practical)
 > Дополнительно почитать про позиционирование html - css
+
+
+## 3 [position](https://github.com/MihailBoicko/study/tree/master/overflow/position) Позиционирование
+
+[HTML Book](http://htmlbook.ru/samlayout/blochnaya-verstka/pozitsionirovanie-elementov)
+[Все способы вертикального выравнивания в CSS](https://habrahabr.ru/company/netcracker/blog/277433/)
+[Верстка слоями](http://htmlbook.ru/content/verstka-s-pomoshchyu-sloev)
+
+![](https://pp.userapi.com/c841439/v841439530/8c2b/Yj4oEKhakTk.jpg)
