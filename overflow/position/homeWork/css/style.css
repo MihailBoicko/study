@@ -3,6 +3,39 @@ body{
 }
 
 .layout{
-    width: 100px;
+		position: relative;
+    width: 800px;
     margin: 0 auto;
 }
+
+.logo img {
+	width:130px;
+	
+}
+
+.box_title  {
+	position: relative; 
+	left:170px;
+	margin-top: -150px;
+}
+
+ .title h3 {
+	position: relative;
+	top:20px;
+ }
+ 	.title h2 {
+ 		color: #ff9900;
+ 	}
+
+ .child img {
+	padding: 0 700px;
+	position: relative; 
+	top: -160px;
+	width: 	220px;
+ }
+ .addres p  {
+	position: relative;
+	left:20px;
+	top:-30px;
+	font-size: 80%;
+ }
