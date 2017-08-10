@@ -327,3 +327,155 @@ input[type='text'] {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+/* ============= EXPERTISE ================ */
+
+
+.box_title h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.box_expertise  p {
+	color: #8a8a8a;
+	line-height: 20px;
+}
+
+.box_expertise h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.box_title  {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.box_title .lines {
+	background-color: #8a8a8a;
+	width: 50px;
+	height: 2px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+.mobile .mob_img {
+	background-image: url("../images/mobile.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mobile {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float: right;
+}
+
+.branding .brand_img {
+	background-image: url("../images/branding.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+ 
+.branding {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float: right;
+}
+
+.develop .dev_img {
+	background-image: url("../images/development.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.develop {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float:left;
+}
+ 
+/* box_top*/ 
+
+.love .love_img {
+	background-image: url("../images/love.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.love {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float: right;
+}
+
+.game .game_img {
+	background-image: url("../images/game.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.game {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float: right;
+}
+
+.optim .optim_img{
+	background-image: url("../images/optim.png");
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.optim {
+	width: 220px;
+	height: 260px;
+	margin: 40px 5px;
+	text-align: center;
+	padding: 40px;
+	float:left;
+}
